@@ -192,6 +192,26 @@ body {
   font-weight: 500;
 }
 
+@media screen and (max-width: 1024px) {
+  .content {
+    margin: 32px;
+    padding: 32px;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .footnote {
+    max-width: 75vw;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .content {
     margin: 32px;
@@ -203,7 +223,7 @@ body {
   }
 
   .heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .footnote {
@@ -215,7 +235,8 @@ body {
 @media screen and (max-width: 767px) {
   .content {
     margin: 24px;
-    padding: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .paragraph {
@@ -223,14 +244,15 @@ body {
   }
 
   .heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
 @media screen and (max-width: 479px) {
   .content {
     margin: 24px;
-    padding: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
     border-radius: 16px;
   }
 
