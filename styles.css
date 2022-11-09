@@ -14,7 +14,7 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url("/images/background.png");
+  background-image: url("https://uploads-ssl.webflow.com/636a997eb7ac60bac8590fc6/636aa928c9f2ad2f5671ccad_Background.png");
   background-position: 50% 100%;
   background-size: cover;
   -o-object-fit: none;
@@ -60,7 +60,7 @@
 .image {
   width: 128px;
   height: 128px;
-  background-image: url("images/profile.png");
+  background-image: url("https://uploads-ssl.webflow.com/636a997eb7ac60bac8590fc6/636aa9af0e1bd21c73aa157e_Ellipse%201.png");
   background-position: 50% 50%;
   background-size: cover;
   background-clip: border-box;
@@ -128,7 +128,7 @@
 .heading {
   margin-top: 24px;
   margin-bottom: 24px;
-  font-family: Syne, sans-serif;
+  font-family: 'Syne', sans-serif;
   color: #1e1e1e;
   font-size: 64px;
   line-height: 120%;
