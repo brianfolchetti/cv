@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Input Sans";
+  src: url('fonts/InputSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Input Mono";
+  src: url('fonts/InputMonoCondensed-Medium.ttf');
+}
+
+@font-face {
+  font-family: "Syne";
+  src: url('fonts/Syne-Bold.ttf');
+}
 
 .background {
   position: absolute;
@@ -14,6 +28,8 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  background-color: #1e1e1e;
+
   background-image: url("images/background.png");
   background-position: 50% 100%;
   background-size: cover;
@@ -52,6 +68,7 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(#dcf), color-stop(15%, #fff), color-stop(50%, #fff), color-stop(85%, #fff), color-stop(99%, #ccffef));
   background-image: linear-gradient(180deg, #dcf, #fff 15%, #fff 50%, #fff 85%, #ccffef 99%);
   background-clip: border-box;
+  box-shadow: 0 0 20px -1px rgb(0 0 0 / 40%);
   -webkit-text-fill-color: inherit;
   -o-object-fit: fill;
   object-fit: fill;
@@ -117,12 +134,33 @@
 .paragraph {
   max-width: 60ch;
   margin-bottom: 48px;
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: 'Input Sans', sans-serif;
   color: #1e1e1e;
   font-size: 20px;
   line-height: 180%;
   font-weight: 500;
   text-align: center;
+}
+
+.cool {
+  background: linear-gradient(-45deg, #ee2525, #ee5293, #A883F6, #23a6d5, #23d5ab, #74f568);
+	background-size: 500% 500%;
+	animation: gradient 5s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .heading {
@@ -144,7 +182,7 @@
 }
 
 .footnote {
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: 'Input Mono', sans-serif;
   color: rgba(22, 24, 27, 0.7);
   font-size: 12px;
   line-height: 120%;
