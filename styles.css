@@ -214,8 +214,8 @@ body {
 
 @media screen and (max-width: 767px) {
   .content {
-    margin: 16px;
-    padding: 16px;
+    margin: 24px;
+    padding: 24px;
   }
 
   .paragraph {
@@ -229,9 +229,8 @@ body {
 
 @media screen and (max-width: 479px) {
   .content {
-    margin: 16px;
-    padding-right: 16px;
-    padding-left: 16px;
+    margin: 24px;
+    padding: 24px;
     border-radius: 16px;
   }
 
