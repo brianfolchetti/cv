@@ -68,8 +68,8 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 16px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#dcf), color-stop(15%, #fff), color-stop(50%, #fff), color-stop(85%, #fff), color-stop(99%, #ccffef));
-  background-image: linear-gradient(180deg, #dcf, #fff 15%, #fff 50%, #fff 85%, #ccffef 99%);
+  /* the cool gradient : background-image: linear-gradient(315deg, #c1b1d3, #dcb5c0 5%, #e6cebf 10%, #e5e0c1 15%, #dbecd6 20%, #e5f4f9 25%, #f8fbfe 30%, #f8fbfe 70%, #d5e4f5 75%, #d7d4eb 80%, #e7d2e6 85%, #f9eceb 90%, #e4f2e6 95%, #cbe7f9 100%); */
+  background-image: linear-gradient(315deg, #dcf, #fff 15%, #fff 50%, #fff 85%, #ccffef 100%);
   background-clip: border-box;
   box-shadow: 0 0 20px -1px rgb(0 0 0 / 40%);
   -webkit-text-fill-color: inherit;
@@ -262,8 +262,12 @@ body {
   }
 
   .paragraph {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-bottom: 24px;
+  }
+
+  .footnote {
+    font-size: 11px;
   }
 
   .heading {
