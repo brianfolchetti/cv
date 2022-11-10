@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: "Input Mono";
-  src: url('fonts/InputMonoCondensed-Medium.ttf');
+  font-family: "IBM Plex Mono";
+  src: url('fonts/IBMPlexMono-Medium.ttf');
 }
 
 @font-face {
@@ -78,8 +78,9 @@ body {
 }
 
 .image {
-  width: 128px;
-  height: 128px;
+  width: 200px;
+  height: 200px;
+  clip-path: circle(50% at 50% 50%);
   background-image: url("images/profile.png");
   background-position: 50% 50%;
   background-size: cover;
@@ -146,7 +147,8 @@ body {
 }
 
 .cool {
-  background: linear-gradient(-45deg, #ee2525, #ee5293, #A883F6, #23a6d5, #23d5ab, #74f568);
+  font-style:italic;
+  background: linear-gradient(-45deg, #ee5293, #A883F6, #23a6d5, #23d5ab, #74f568);
 	background-size: 500% 500%;
 	animation: gradient 5s ease infinite;
   -webkit-background-clip: text;
@@ -181,12 +183,15 @@ body {
 }
 
 .link:hover {
-  background-color: #4BFFC5;
+  color: #131416;
+  background: linear-gradient(-45deg, #ee5293, #A883F6, #23a6d5, #23d5ab, #74f568);
+	background-size: 500% 500%;
+	animation: gradient 5s ease infinite;
 }
 
 .footnote {
-  font-family: 'Input Mono', sans-serif;
-  color: rgba(22, 24, 27, 0.4);
+  font-family: "IBM Plex Mono";
+  color: rgba(22, 24, 27, 0.5);
   font-size: 12px;
   line-height: 120%;
   font-weight: 500;
@@ -196,6 +201,11 @@ body {
   .content {
     margin: 32px;
     padding: 32px;
+  }
+
+  .image {
+    width: 156px;
+    height: 156px;
   }
 
   .paragraph {
@@ -216,6 +226,11 @@ body {
   .content {
     margin: 32px;
     padding: 32px;
+  }
+
+  .image {
+    width: 128px;
+    height: 128px;
   }
 
   .paragraph {
