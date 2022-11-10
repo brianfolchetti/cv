@@ -256,6 +256,11 @@ body {
     border-radius: 16px;
   }
 
+  .image {
+    width: 92px;
+    height: 92px;
+  }
+
   .paragraph {
     font-size: 0.9rem;
   }
