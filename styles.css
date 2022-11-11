@@ -52,6 +52,8 @@ body {
   display: flex;
   width: auto;
   height: auto;
+  min-height: 500px;
+  min-width: 223px;
   margin: 64px;
   padding: 64px;
   -webkit-box-orient: vertical;
@@ -78,8 +80,8 @@ body {
 }
 
 .image {
-  width: 200px;
-  height: 200px;
+  width: 125px;
+  height: 125px;
   clip-path: circle(50% at 50% 50%);
   background-image: url("images/profile.png");
   background-position: 50% 50%;
@@ -135,18 +137,33 @@ body {
   object-fit: fill;
 }
 
+/*.bottomlinks {
+  display: flex;
+  opacity: 0.35;
+  width: 100px;
+  justify-content: space-around;
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 5%;
+  margin-bottom: 0px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}*/
+
 .paragraph {
   max-width: 60ch;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   font-family: 'Input Sans', sans-serif;
-  color: #1e1e1e;
+  color: #131416;
   font-size: 20px;
   line-height: 180%;
   font-weight: 500;
   text-align: center;
 }
 
-.cool {
+/*.cool {
   font-style:italic;
   background: linear-gradient(-45deg, #ee5293, #A883F6, #23a6d5, #23d5ab, #74f568);
 	background-size: 500% 500%;
@@ -154,7 +171,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+}*/
 
 @keyframes gradient {
 	0% {
@@ -170,9 +187,9 @@ body {
 
 .heading {
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 0px;
   font-family: 'Syne', sans-serif;
-  color: #1e1e1e;
+  color: #131416;
   font-size: 64px;
   line-height: 120%;
 }
@@ -191,10 +208,16 @@ body {
 
 .footnote {
   font-family: "IBM Plex Mono";
-  color: rgba(22, 24, 27, 0.5);
+  color: rgba(30, 30, 30, 0.5);
   font-size: 12px;
   line-height: 120%;
   font-weight: 500;
+  text-decoration: line;
+  text-align: center;
+}
+
+.footnote a:hover {
+  color: rgba(30, 30, 30, 0.75);
 }
 
 @media screen and (max-width: 1024px) {
