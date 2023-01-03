@@ -85,7 +85,7 @@ body {
 .image {
   width: 125px;
   height: 125px;
-  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
   background-image: url("images/profile.webp");
   background-position: 50% 50%;
   background-size: cover;
