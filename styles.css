@@ -3,10 +3,10 @@
   src: url('fonts/Hubot-Sans-Medium.otf');
 }
 
-/* @font-face {
-  font-family: "IBM Plex Mono";
-  src: url('fonts/IBMPlexMono-Medium.ttf');
-} */
+@font-face {
+  font-family: "Monocode";
+  src: url('fonts/monocode-bold.ttf');
+}
 
 @font-face {
   font-family: "Hubot-Sans";
@@ -207,7 +207,7 @@ body {
 }
 
 .footnote {
-  font-family: "Hubot-Sans";
+  font-family: "Monocode";
   color: rgba(30, 30, 30, 0.5);
   font-size: 12px;
   line-height: 120%;
