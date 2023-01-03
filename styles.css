@@ -32,8 +32,8 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #1e1e1e;
-  background-image: url("images/background.png");
+  background-color: #131416;
+  background-image: url("images/background.webp");
   background-position: 50% 100%;
   background-size: cover;
   -o-object-fit: none;
