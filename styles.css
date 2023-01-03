@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "Input Sans";
-  src: url('fonts/InputSans-Regular.ttf');
+  font-family: "Hubot-Sans Medium";
+  src: url('fonts/Hubot-Sans-Medium.otf');
 }
 
-@font-face {
+/* @font-face {
   font-family: "IBM Plex Mono";
   src: url('fonts/IBMPlexMono-Medium.ttf');
-}
+} */
 
 @font-face {
-  font-family: "Syne";
-  src: url('fonts/Syne-Bold.ttf');
+  font-family: "Hubot-Sans";
+  src: url('fonts/Hubot-Sans-SemiBoldWide.otf');
 }
 
 body {
@@ -155,7 +155,7 @@ body {
 .paragraph {
   max-width: 60ch;
   margin-bottom: 24px;
-  font-family: 'Input Sans', sans-serif;
+  font-family: 'Hubot-Sans Medium', sans-serif;
   color: #131416;
   font-size: 20px;
   line-height: 180%;
@@ -188,7 +188,7 @@ body {
 .heading {
   margin-top: 24px;
   margin-bottom: 0px;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Hubot-Sans', sans-serif;
   color: #131416;
   font-size: 64px;
   line-height: 120%;
@@ -207,7 +207,7 @@ body {
 }
 
 .footnote {
-  font-family: "IBM Plex Mono";
+  font-family: "Hubot-Sans";
   color: rgba(30, 30, 30, 0.5);
   font-size: 12px;
   line-height: 120%;
