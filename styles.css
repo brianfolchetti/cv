@@ -1,16 +1,19 @@
 @font-face {
   font-family: "Hubot-Sans Medium";
   src: url('fonts/Hubot-Sans-Medium.otf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Monocode";
   src: url('fonts/monocode-bold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Hubot-Sans";
   src: url('fonts/Hubot-Sans-MediumWide.otf');
+  font-display: swap;
 }
 
 body {
